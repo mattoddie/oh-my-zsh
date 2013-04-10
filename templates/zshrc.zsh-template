@@ -11,3 +11,5 @@ alias reload!='. ~/.zshrc'
 alias be='nocorrect bundle exec'
 
 plugins=(git brew vagrant cap screen sublime)
+
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
