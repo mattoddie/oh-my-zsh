@@ -9,8 +9,7 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR='vim'
 
 alias reload!='. ~/.zshrc'
-alias be='nocorrect bundle exec'
 
-plugins=(git brew vagrant cap screen sublime)
+plugins=(git brew vagrant cap bundler screen sublime)
 
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
