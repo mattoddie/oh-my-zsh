@@ -3,6 +3,7 @@ export ZSH_THEME="robbyrussell"
 export DISABLE_AUTO_UPDATE="true"
 export COMPLETION_WAITING_DOTS="true"
 
+unsetopt correct
 source $ZSH/oh-my-zsh.sh
 
 export EDITOR='vim'
