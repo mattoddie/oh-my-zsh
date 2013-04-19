@@ -3,12 +3,13 @@ export ZSH_THEME="robbyrussell"
 export DISABLE_AUTO_UPDATE="true"
 export COMPLETION_WAITING_DOTS="true"
 
-unsetopt correct
 source $ZSH/oh-my-zsh.sh
+unsetopt correct
 
 export EDITOR='vim'
 
 alias reload!='. ~/.zshrc'
+alias ll='ls -la'
 
 plugins=(git brew vagrant cap bundler screen sublime)
 
