@@ -3,15 +3,17 @@ export ZSH_THEME="robbyrussell"
 export DISABLE_AUTO_UPDATE="true"
 export COMPLETION_WAITING_DOTS="true"
 
+plugins=(git brew vagrant cap bundler screen sublime golang urltools node)
+
 source $ZSH/oh-my-zsh.sh
 unsetopt correct
 
-export EDITOR='vim'
+export EDITOR='subl'
+export GOPATH=$HOME
 
 alias reload!='. ~/.zshrc'
 alias ll='ls -la'
-
-plugins=(git brew vagrant cap bundler screen sublime golang urltools node)
+alias rgrep='grep -R'
 
 ulimit -n 4096
 
